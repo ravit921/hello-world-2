@@ -8,8 +8,8 @@ public class Test implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("hello world..");
-		System.out.println("hello world 2nd line");
+		int i=10;
+		System.out.println("hello world 2nd line"+i);
 	}
 
 }
